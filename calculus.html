@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<nav class="navbar" style="background-color: #00a8c9;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html" style="color: white;"><em><strong>Learn Math</strong></em></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="https://urban-disco-r4g5j95j4xrpcpj7g-8080.app.github.dev/index.html">Home</a>
+        <a class="nav-link" href="SAT.html">SAT Math</a>
+        <a class="nav-link" href="calculus.html">Calculus</a>
+        <a class="nav-link" href="algebra.html">Algebra</a>
+        <a class="nav-link" href="trig.html">Trigonometry</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title><b>Calculus</b></title>
+    </head>
+    <body>
+        <br>
+        <h1><strong>Calculus I (or II)</strong></h1>
+        <p></p>
+        <h5>This year, I took AP Calculus AB and struggled with understanding the concepts conceptually.<br> Below, I've linked everything that helped me learn.</h5>
+        <hr class="thick-line">
+        <br><h1><strong>Khan Academy</strong></h1>
+        <h5>Khan Academy is a great resource for learning math in general. The platform features <br> videos that help conceptualize difficult concepts such as the washer and shell method. <br> Additionally, it has a larger question bank to help you practice!</h5>
+        <a href="https://khanacademy.org/math/ap-calculus-bc">
+          <img class="center" width="60%" src="https://cdn.kastatic.org/images/khan-logo-dark-background-2.png">
+        </a>
+        <br><h1><strong>Turksvids</strong></h1>
+        <h5>Turksvids is a YouTube Channel with thousands of videos on the AP Calculus curriculum. <br>He solves several guided MCQ and FRQ's on his channel. He also teaches Calc III!</h5>
+        <a href="https://www.youtube.com/@turksvids">
+          <img class="center" width="60%" src="https://yt3.googleusercontent.com/cuk7fvM0MeCJpKU3quspUM2sassLHUFBHOADFk-AQTE4V4cEgEFGozxIwWSpNm3TZJ30W4LT5Q=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj">
+        </a>
+        <br>
+        <div id="buttons">
+          <button id="home"type="button" onclick="location.href='SAT.html'">SAT Math</button>
+          <button id="two"type="button" onclick="location.href='calculus.html'">Calculus</button>
+          <button id="three"type="button" onclick="location.href='algebra.html'">Algebra</button>
+          <button id="four"type="button" onclick="location.href='trig.html'">Trigonometry</button>
+        </div>
+        <script>
+           function changeButtonColor(buttonId, color) {
+            document.getElementById(buttonId).style.backgroundColor = color;
+          }
+
+          document.getElementById("home").addEventListener("mouseover", function() {
+            changeButtonColor("home", "#005a6b");
+          });
+          document.getElementById("home").addEventListener("mouseout", function() {
+            changeButtonColor("home", "");
+          });
+
+          function changeButtonColor(buttonId, color) {
+            document.getElementById(buttonId).style.backgroundColor = color;
+          }
+
+          document.getElementById("two").addEventListener("mouseover", function() {
+            changeButtonColor("two", "#005a6b");
+          });
+          document.getElementById("two").addEventListener("mouseout", function() {
+            changeButtonColor("two", "");
+          });
+
+          function changeButtonColor(buttonId, color) {
+            document.getElementById(buttonId).style.backgroundColor = color;
+          }
+
+          document.getElementById("three").addEventListener("mouseover", function() {
+            changeButtonColor("three", "#005a6b");
+          });
+          document.getElementById("three").addEventListener("mouseout", function() {
+            changeButtonColor("three", "");
+          });
+
+          function changeButtonColor(buttonId, color) {
+            document.getElementById(buttonId).style.backgroundColor = color;
+          }
+
+          document.getElementById("four").addEventListener("mouseover", function() {
+            changeButtonColor("four", "#005a6b");
+          });
+          document.getElementById("four").addEventListener("mouseout", function() {
+            changeButtonColor("four", "");
+          });
+
+        </script>
+    </body>
+</html>
+
