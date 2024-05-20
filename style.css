@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/2e/53/1d/2e531d6c61ab73c385e502876425c497.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #00a8c9;
+    color: #ffffff;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pleasework {
+    background-image: url(https://t4.ftcdn.net/jpg/05/07/32/97/360_F_507329714_rqcXNRqwqhb97GRa0QWkidyBHZMnxp0y.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-color: #FF0000;*/
+    color: #ffffff;
+    padding: 200px 350px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+button2 {
+    background-color: #ffffff;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.thick-line {
+    border: none;
+    height: 10px;
+    background-color: #ffffff;
+}
+
+.white {
+    color: white;
+}
+
+.background {
+    background-image: url("https://www.hdwallpapers.in/download/road_lights_night_black_and_white_dark_background_4k_hd_dark_background-1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
